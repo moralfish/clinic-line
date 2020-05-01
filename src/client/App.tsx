@@ -1,8 +1,7 @@
 import * as React from 'react';
 import socketIOClient from "socket.io-client";
 
-const port = process.env.PORT || 3000;
-const ENDPOINT = "https://clinic-line.herokuapp.com:"+port;
+const ENDPOINT = "https://clinic-line.herokuapp.com:3000";
 
 class App extends React.Component<IAppProps, IAppState> {
 	constructor(props: IAppProps) {
